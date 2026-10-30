@@ -4,16 +4,16 @@ The "Our Work" section shows a styled placeholder tile for each trade until a re
 with the matching filename exists in this folder. Then the photo appears automatically and
 becomes clickable (opens in the lightbox). No HTML edits needed.
 
-| File name            | Tile                      |
-|----------------------|---------------------------|
-| `stucco-1.jpg`       | Stucco & Parapet Repair   |
-| `roofing-1.jpg`      | Tar & Gravel Roofing      |
-| `drywall-1.jpg`      | Drywall & Sheetrock       |
-| `cabinets-1.jpg`     | Cabinet Painting          |
-| `electrical-1.jpg`   | Electrical                |
-| `framing-1.jpg`      | Framing                   |
-| `landscaping-1.jpg`  | Landscaping               |
-| `stucco-2.jpg`       | Parapet Wall Repair       |
+| File name            | Tile                          |
+|----------------------|-------------------------------|
+| `cabinets-1.jpg`     | Cabinet Painting (photo in)   |
+| `framing-1.jpg`      | Fireplace Surround Rebuild (photo in) |
+| `drywall-1.jpg`      | Ceiling Texture (photo in)    |
+| `stucco-1.jpg`       | Interior Stucco Patch (photo in) |
+| `plumbing-1.jpg`     | Sink & Faucet Install (photo in) |
+| `roofing-1.jpg`      | Tar & Gravel Roofing          |
+| `electrical-1.jpg`   | Electrical                    |
+| `landscaping-1.jpg`  | Landscaping                   |
 
 ## Tips
 - Use **JPG**, landscape (4:3 works best; it's cropped to fill the tile), about **1600px wide**,
