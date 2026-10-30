@@ -4,16 +4,20 @@ The "Our Work" section shows a styled placeholder tile for each trade until a re
 with the matching filename exists in this folder. Then the photo appears automatically and
 becomes clickable (opens in the lightbox). No HTML edits needed.
 
-| File name            | Tile                          |
-|----------------------|-------------------------------|
-| `cabinets-1.jpg`     | Cabinet Painting (photo in)   |
-| `framing-1.jpg`      | Fireplace Surround Rebuild (photo in) |
-| `drywall-1.jpg`      | Ceiling Texture (photo in)    |
-| `stucco-1.jpg`       | Interior Stucco Patch (photo in) |
-| `plumbing-1.jpg`     | Sink & Faucet Install (photo in) |
-| `roofing-1.jpg`      | Tar & Gravel Roofing          |
-| `electrical-1.jpg`   | Electrical                    |
-| `landscaping-1.jpg`  | Landscaping                   |
+| File name | Tile |
+|---|---|
+| `cabinets-1.jpg` | Cabinet Painting |
+| `stucco-2.jpg` | Stucco Parapet Repair |
+| `framing-1.jpg` | Fireplace Surround Rebuild |
+| `cabinets-2.jpg` | Kitchen Cabinets & Countertop |
+| `drywall-2.jpg` | Sheetrock Ceiling Patch |
+| `stucco-3.jpg` | Parapet Cap, Fresh Stucco |
+| `drywall-1.jpg` | Ceiling Texture |
+| `stucco-1.jpg` | Interior Stucco Patch |
+| `drywall-3.jpg` | Textured Bedroom Ceiling |
+| `plumbing-1.jpg` | Sink & Faucet Install |
+| `roofing-1.jpg` | Tar & Gravel Roofing (placeholder until a photo is added) |
+| `electrical-1.jpg` | Electrical (placeholder until a photo is added) |
 
 ## Tips
 - Use **JPG**, landscape (4:3 works best; it's cropped to fill the tile), about **1600px wide**,
