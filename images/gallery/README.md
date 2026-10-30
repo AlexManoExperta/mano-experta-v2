@@ -13,7 +13,7 @@ becomes clickable (opens in the lightbox). No HTML edits needed.
 | `drywall-2.jpg` | Sheetrock Ceiling Patch |
 | `stucco-3.jpg` | Parapet Cap, Fresh Stucco |
 | `drywall-1.jpg` | Ceiling Texture |
-| `stucco-1.jpg` | Interior Stucco Patch |
+| `chimney-1.jpg` | Chimney Cover-Up |
 | `drywall-3.jpg` | Textured Bedroom Ceiling |
 | `plumbing-1.jpg` | Sink & Faucet Install |
 | `roofing-1.jpg` | Tar & Gravel Roofing (placeholder until a photo is added) |
