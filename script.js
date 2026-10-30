@@ -5,7 +5,7 @@
 /* ===================== CONFIG: EDIT THESE ===================== */
 // 1) Formspree endpoint, e.g. 'https://formspree.io/f/abcdwxyz'.
 //    Create a free form at https://formspree.io and paste its endpoint here.
-const FORMSPREE_ENDPOINT = '';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mgaazjzl';
 
 // 2) Fallback email (used only if FORMSPREE_ENDPOINT is empty).
 //    The form opens the visitor's email app addressed to this address.
