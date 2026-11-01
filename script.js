@@ -57,6 +57,7 @@ const PHONE_DISPLAY = '505-900-1392';
       g5: 'Electrical', g6: 'Fireplace Surround Rebuild', g7: 'Landscaping', g8: 'Stucco Parapet Repair', g9: 'Sink & Faucet Install', g10: 'Parapet Cap, Fresh Stucco', g11: 'Kitchen Cabinets & Countertop', g12: 'Sheetrock Ceiling Patch', g13: 'Textured Bedroom Ceiling',
       galNote: 'Project photos coming soon. Ask Alex for pictures of similar jobs.',
       statYears: 'years in business', statCities: 'cities served',
+      aboutImgAlt: 'Mano Experta promo: Alex in a yellow hard hat and blue overalls in front of a wall of tools. Jack of All Trades, 505-900-1392, Albuquerque, Los Lunas and Santa Fe.',
       aboutEyebrow: 'Meet Alex', aboutTitle: 'One skilled hand for the whole house',
       about1: "Mano Experta is Alex Rascón's handyman business. Alex came up through union carpentry, and for the past 7 years he's put that training to work for homeowners and property owners across central and northern New Mexico.",
       about2: 'Stucco cracking on a parapet, a leak on a tar and gravel roof, a room that needs sheetrock, or cabinets that need a fresh coat: instead of calling five different trades, call one. Alex shows up, explains the job straight, and does it right.',
@@ -115,6 +116,7 @@ const PHONE_DISPLAY = '505-900-1392';
       g5: 'Electricidad', g6: 'Reconstrucción de chimenea', g7: 'Jardinería', g8: 'Reparación de parapeto con estuco', g9: 'Lavabo y llave nueva', g10: 'Remate de parapeto con estuco nuevo', g11: 'Gabinetes y cubierta de cocina', g12: 'Parche de sheetrock en el techo', g13: 'Techo de recámara con textura',
       galNote: 'Pronto subiremos fotos. Pídale a Alex fotos de trabajos parecidos.',
       statYears: 'años en el negocio', statCities: 'ciudades',
+      aboutImgAlt: 'Promoción de Mano Experta: Alex con casco amarillo y overol azul frente a una pared de herramientas. Jack of All Trades (todo en uno), 505-900-1392, Albuquerque, Los Lunas y Santa Fe.',
       aboutEyebrow: 'Conozca a Alex', aboutTitle: 'Una mano experta para toda la casa',
       about1: 'Mano Experta es el negocio de Alex Rascón. Alex se formó como carpintero de la unión, y desde hace 7 años pone esa experiencia al servicio de dueños de casa y propiedades en el centro y norte de Nuevo México.',
       about2: 'Estuco cuarteado en el parapeto, una gotera en el techo de brea y grava, un cuarto que necesita sheetrock o gabinetes que piden pintura nueva: en vez de llamar a cinco oficios distintos, llame a uno. Alex llega, le explica el trabajo claro y lo hace bien.',
@@ -156,6 +158,9 @@ const PHONE_DISPLAY = '505-900-1392';
     });
     document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
       const v = dict[el.dataset.i18nPlaceholder]; if (v != null) el.setAttribute('placeholder', v);
+    });
+    document.querySelectorAll('[data-i18n-alt]').forEach((el) => {
+      const v = dict[el.dataset.i18nAlt]; if (v != null) el.setAttribute('alt', v);
     });
     document.querySelectorAll('[data-i18n-aria]').forEach((el) => {
       const v = dict[el.dataset.i18nAria]; if (v != null) el.setAttribute('aria-label', v);
